@@ -1,6 +1,10 @@
-### Quick Reference - kubectl
+# kubectl
 
-https://kubernetes.io/docs/reference/kubectl/quick-reference/
+
+[Quick Reference - kubectl](https://kubernetes.io/docs/reference/kubectl/quick-reference/)
+
+[Minikube (Testcluster)](https://minikube.sigs.k8s.io/docs/)
+
 
 ```
 kubectl get pods o -wide
