@@ -1,5 +1,6 @@
-## Auto
-tpdate pool.ntp.org
+## Auto Time Syn:
+
+`tpdate pool.ntp.org`
 
 sudo systemctl status rsyslog
 
