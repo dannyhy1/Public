@@ -8,4 +8,8 @@ kubectl get pods o -wide
 
 ```
 kubectl get services
+
+
+kubectl get rs # replikasets
+
 ```
