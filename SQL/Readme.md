@@ -1,4 +1,8 @@
+# SQL-BASICS.md
 
+
+
+## Standardbefehle
 ```sql
 
 
@@ -19,5 +23,12 @@ SELECT MAX (amount) AS 'Größte Bestellung', AVG (amount) AS DURCHSCHNITT from 
 -- SELECT * FROM Orders GROUP BY item
 
 */
+
+-- JOINS --
+
+SELECT * 
+FROM Customers C -- Variable C zuordnenn
+JOIN Orders O ON C.customer_id = O.customer_id;
+
 
 ```
